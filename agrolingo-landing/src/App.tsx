@@ -117,7 +117,6 @@ const useCanvasParticles = () => {
 };
 
 export default function App() {
-  const [menuOpen, setMenuOpen] = useState(false);
   const [toast, setToast] = useState<string | null>(null);
 
   const [form, setForm] = useState({ name: "", phone: "", location: "kano", crop: "" });
@@ -262,7 +261,7 @@ export default function App() {
           <div className="problem-floats">
             <div className="float-card float-card-3">
               <div className="float-title">🎤 Hausa Voice</div>
-              <div className="float-content">"Masara ta kawo wari…" → AI identifies <strong style={{color: 'var(--saffron)'}}>maize stalk rot</strong></div>
+              <div className="float-content">"Masara tayi kwari…" → AI identifies <strong style={{color: 'var(--saffron)'}}>maize stalk rot</strong></div>
               <div className="float-pill">Voice-first</div>
             </div>
             <div className="float-card float-card-4">
@@ -466,7 +465,7 @@ export default function App() {
               <div className="testimonial-quote">"</div>
               <div className="testimonial-text">
                 I told the AI about my sorghum in Hausa and it gave me the exact answer — which fertilizer, how much, when to apply. My harvest was the best in five years.
-                <span className="hausa-quote">"Na gaya wa AI game da dawa ta Hausa, ya ba ni amsar daidai…"</span>
+                <span className="hausa-quote">"Na gaya wa AI game da dawa ta a Hausa, ya ba ni amsar daidai…"</span>
               </div>
               <div className="flex items-center">
                 <div className="author-avatar">👨‍🌾</div>
@@ -480,7 +479,7 @@ export default function App() {
               <div className="testimonial-quote">"</div>
               <div className="testimonial-text">
                 As a woman farmer, I always felt digital tools weren't made for me. AgroLingo speaks to me in Hausa, understands my situation, and treats me like an expert.
-                <span className="hausa-quote">"A matsayina na mace manoma, na ji kayan dijital ba a yi su gare ni ba…"</span>
+                <span className="hausa-quote">"A matsayina na mace manomiya, na ji kayan dijital ba a yi su gare ni ba…"</span>
               </div>
               <div className="flex items-center">
                 <div className="author-avatar">👩‍🌾</div>
